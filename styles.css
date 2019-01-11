@@ -1,0 +1,311 @@
+@charset "utf-8";
+@charset "utf-8";
+body{
+	width: 98%;
+	margin: 0px 0px 0px 11px;
+	background-color: #053E5B;
+}
+#img-header{
+	margin: 0px 0px -60px 0px;
+	
+}
+#title{
+	color: #FFFFFF;
+	padding-bottom: 10px;
+	margin: 50px 0px 0px 0px;
+	font-family: baumans, "sans-serif";
+	font-size: 100px;
+}
+.container-fluid{
+	background-color: #053E5B;
+}
+#footer{
+	
+	margin: 10px 0px 25px 0px; 
+	background-color: #1B759F;
+	color: rgba(255,255,255,1.00);
+	text-align: center;
+	font-size: 1.75em;
+	font-family: baumans, "sans-serif";
+	padding: 0px 0px 0px 0px;
+	border-radius: 5px;
+	border: thin #FFFFFF;
+	border-style:solid;
+
+}
+.anime-music {
+	border-radius: 5px;
+}
+
+
+.image-op:hover{
+	opacity:.6;
+}
+
+.anime-port{
+	margin: 15px 0px 0px 0px;
+
+}
+li{
+	list-style: none;
+}
+
+.md-anime-image{
+	
+}
+.sm-anime-image{
+	
+}
+.lg-anime-image{
+	overflow: auto;
+	height: 200px;
+	float: right;
+	padding: 10px 5px 5px 5px;
+	background-color: #FFFFFF;
+	
+}
+p{
+	/*border-radius: 0px 0px 25px 10px;*/
+	/*border: 1px solid #FFFFFF;*/
+}
+
+
+
+/* Carousel CSS */
+
+.hide-bullets {
+    list-style:none;
+    margin-left: -40px;
+    margin-top:20px;
+}
+
+.thumbnail {
+    padding: 0;
+}
+
+.carousel-inner>.item>img, .carousel-inner>.item>a>img {
+    width: 100%;
+}
+.col-xs-12{
+
+
+}
+
+.hoverImages{
+		-webkit-transition: margin 0.5s ease-out;
+    -moz-transition: margin 0.5s ease-out;
+    -o-transition: margin 0.5s ease-out;
+}
+
+
+.hoverImages:hover {
+	cursor:pointer;
+    margin-top: 5px;
+}
+
+
+
+.hidden-sm{
+	background-color: #FFFFFF;
+}
+.hidden-md{
+	background-color: #FFFFFF;
+}
+.hidden-md{
+	background-color: #FFFFFF;
+}
+/* CSS FOR THE CURRENTANIME.HTML*/
+
+.animeInfo {
+	padding: 10px;
+    background-color: #FFFFFF;
+   	overflow: hidden;
+	height: 200px;
+	width: 200;
+	
+}
+
+.animeScroll:hover{
+	overflow: scroll;
+	overflow-x: hidden;
+	overflow-y: auto;
+}
+
+#current-title{
+	color: #FFFFFF;
+	text-align: center;
+	font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif";
+	
+}
+.anime-title {
+	color: #58B3E5;
+	font-family: times Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	border-bottom: solid;
+	margin-bottom: 10px;
+}
+
+
+#animelineup-body{
+	padding: 0px 25px 0px 2px; 
+	background-color: #FFFFFF;
+	border-style: solid #FFFFFF;
+	
+}
+
+.box-shadow{
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 5px 10px #888888;
+}
+
+
+
+
+/* STARTS THE ANIME.INFO TEMPLATE */
+
+.anime-vid
+{
+	margin: 0px -50px 0px 0px;
+}.bleach-title {
+	color: #FFFFFF;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	font-style: italic;
+	border-bottom: solid #55B6E1;	
+}
+.animecontent{
+	
+	background-color: #FFFFFF;
+	
+}
+
+.anime-img-r{
+	float: left;
+	padding: 1px;
+}
+.anime-content{
+	padding: 10px 10px 0px 10px;
+	font-size: 15px;
+	
+}
+.image-op {
+}
+.music-title{
+	color: #FFFFFF;
+}
+
+
+#content-wrap{
+	background-color:#FFFFFF;
+	margin-top: 60px;
+	border-radius: 15px;
+	width: 900px;
+	
+}
+
+
+
+.text{
+	position: absolute;
+	font-size: 15px;
+	width: 50%;
+	 text-align: center;
+	bottom: 8px;
+	padding: 8px 12px;
+	margin-right: 10PX;
+}
+
+
+
+
+
+
+
+
+.containerDif {
+  padding-bottom: 15px;	
+  width: 600px;
+  margin: 2em auto;
+  overflow: hidden;
+  background: white;
+  border-radius: 5px;
+}
+
+.message, .contact, .name, .footer, header, footer, textarea {
+  display: block;
+  padding: 0;
+  margin: 0;
+  border: 0;
+  clear: both;
+  overflow: hidden;
+}
+
+header, footer {
+  height: 75px;
+  background: rgba(0, 0, 0, 0.05);
+  line-height: 75px;
+  padding-left: 20px;
+  border-radius: 5px 5px 0 0;
+}
+header h1, footer h1 {
+  font-size: 1.2em;
+  text-transform: uppercase;
+  color: rgba(51, 51, 51, 0.4);
+}
+
+.first, .last {
+  float: left;
+  width: 278px;
+  margin: 0;
+  padding: 0 0 0 20px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  height: 50px;
+}
+
+.last {
+  width: 279px;
+  border-left: 0;
+}
+
+.email, textarea {
+  height: 50px;
+  width: 578px;
+  line-height: 50px;
+  padding: 0 0 0 20px;
+  border-top: 0;
+  border-left: 1px solid rgba(0, 0, 0, 0.1);
+  border-right: 1px solid rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+textarea {
+  height: 200px;
+}
+
+button {
+  border-radius: 10px;
+  background:#1B759F;
+  font-size: 15px;
+  border: 0;
+  margin: 10px 15px 0px 0px;
+  color:#FFFFFF;
+  float: right;
+  padding: 10px 15px 15px 15px;
+
+}
+ button:hover {
+  background:#6FC9FC;
+}
+
+
+
+#indexh2{
+	margin-left: 10px; 
+	color: #FFFFFF; 
+	border-bottom: solid #55B6E1;
+}
+
+
+.col-sm-7 .font-size{
+	
+	font-size: .0025em;
+}
